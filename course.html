@@ -1,0 +1,113 @@
+ <!DOCTYPE HTML> 
+<html> 
+<head> 
+<title>Add Course</title> 
+<style>
+
+footer {
+    padding: 1em;
+	
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btno {
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	width:50px;
+}
+
+
+.info {background-color: #CA9F92; color:black; font-weight:bold;} 
+.info:hover {background: #0b7dda;}
+
+.pi {background-color: #CA9F92; color:black; font-weight:bold;} 
+.pi:hover {background: #0b7dda;}
+
+
+
+</style>
+
+
+
+</head> 
+
+<body > 
+
+
+<div style="background-color:#353131;padding:15px;text-align:center;color: white;">
+  <h1>Add Course </h1>
+</div>
+
+<div     style="background-color:	#F5F5DC">
+
+
+<br> <br>
+<center>
+  
+  
+ <form method="POST" action="course.php" > 
+
+ <table width="45%">
+ 
+<tr>
+ <td><b>Course Code:</b></td>
+
+	<td><input type="text" name="col" size="40" required></td>
+</tr>
+<tr>
+ <td><b>Course Name:</b></td>
+
+	<td><input type="text" name="con" size="40" required></td>
+</tr>
+
+<tr>
+<td><b>Credit:</b></td>
+
+	<td><input type="text" name="coc"size="40"required></td>
+ 
+ </tr>
+ 
+ 
+ </table>
+ <br>
+ <table>
+<tr>
+<td>&ensp;&ensp;&ensp;<input class="btn info" type="submit" name="submit" value="Submit"></td>
+</tr>
+
+</table>
+
+
+ </form>
+<br>
+
+<table>
+<tr>
+<td>&ensp;&ensp;&ensp;<input class="btno pi"  value="Home" onclick="window.location.href='admin.html'"></td>
+</tr>
+</table>
+</center> 
+
+</div>
+<div>
+<footer>Copyright &copy; suchi_mun.com</footer>
+</div>
+ 
+
+ </body> 
+ 
+</html>
+

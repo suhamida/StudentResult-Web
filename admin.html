@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.info {background-color: #CA9F92; color:black; font-weight:bold; width : 190px; } 
+.info:hover {background: #0b7dda;}
+
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 1em;
+}
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid black;
+	    padding: 16em;
+    overflow: hidden;
+	 text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+   <h1>Admin</h1>
+</header>
+<nav>
+<br>
+<input type ="submit"  class="btn info" value="Add Course" onclick="window.location.href='course.html'"><br><br><br>
+
+<input type ="submit"  class="btn info" value="User Related" onclick="window.location.href='userR.html'"><br><br><br>
+<input type ="submit" class="btn info" value="Student Related" onclick="window.location.href='studentR.html'"><br><br><br>
+<input type ="submit" class="btn info" value="Teacher Related" onclick="window.location.href='teacherR.html'"><br><br><br>
+<input type ="submit" class="btn info" value="Calculate GPA" onclick="window.location.href='calculateGPA.php'"><br><br><br>
+<input type ="submit" class="btn info" value="View GPA" onclick="window.location.href='viewGP.php'"><br><br><br>
+
+
+<input type ="submit" class="btn info" value="Calculate CGPA" onclick="window.location.href='calculateCGPA.php'"><br><br><br>
+<input type ="submit" class="btn info" value="View CGPA" onclick="window.location.href='viewCGP.php'"><br><br><br>
+
+
+<input type ="submit" class="btn info" value="LogOut" onclick="window.location.href='first.html'"><br>
+
+
+</nav>
+<article>
+  <p>Welcome! </p>
+  <p>You have successfully entered into admin page.Now,you can add/delete courses.At the same time you also be able to do all users,students and teachers related works here.</p>
+
+  <img src="img/admins.png" alt="Flowers in Chania" width="460" height="200">
+
+</article>
+<footer>Copyright &copy; suchi_mun.com</footer>
+</div>
+</body>
+</html>
+
+

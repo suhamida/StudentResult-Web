@@ -1,0 +1,79 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<link rel ="stylesheet" type="text/css" href= "all.css">
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.default {background-color: lightblue; color: black;} /* Gray */ 
+.default:hover {background: green;}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+   <h1> Teacher Registration</h1>
+</header>
+<div     style="background-color:	#F5F5DC">
+
+<br><br>
+<center>
+  <form action="rteacher.php" id="myForm" method ="post">
+<table width="30%">
+
+<tr>
+<td>ID<td>
+<td><input type="text" name="id" required></td>
+</tr>
+<tr>
+<td>Name<td>
+<td><input type="text" name="nam" required></td>
+</tr>
+<td>Department<td>
+<td><input type="text" name="dept" required></td>
+<tr>
+
+<td>POST<td>
+<td><input type="text" name="pos" required></td>
+</tr>
+<td>Email<td>
+<td><input type="text" name="em" required></td>
+</tr>
+<td>Contact_address<td>
+<td><input type="text" name="con" required></td>
+<tr>
+<td>Phone_no<td>
+<td><input type="text" name="phon" required></td>
+</tr>
+</table >
+
+	
+<br><br>	
+	      <input type="submit" class="btn default" value="Submit" >	<br><br>	
+				
+</form> 
+</center>
+</div>
+
+
+<footer>Copyright &copy; suchi_mun.com</footer>
+</body>
+</html>
+

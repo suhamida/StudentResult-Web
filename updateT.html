@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.warning {background-color: #CA9F92; color:black; font-weight:bold;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+</style>
+
+
+
+</head>
+<body>
+
+<div class="container">
+<header>
+   <h1>Update Teacher</h1>
+</header>
+<br><br><br><br>
+
+<center>
+
+<form action="midupt.php" method = "POST">
+Enter id to update : &nbsp
+<input type ="text" name = "keys" value="" required />
+
+<input type ="submit"   value="Search"  />
+</form>
+</div>
+
+</center>
+</div>
+<br><br><br><br>
+<center>
+<input type ="button" class="btn warning" value="Go Back" onclick="window.location.href='teacherR.html'">&nbsp&nbsp&nbsp&nbsp&nbsp
+&emsp;&emsp;&emsp;<input type ="button" class="btn warning" value="Go To Home" onclick="window.location.href='admin.html'"><br></br>
+</center>
+<div>
+<footer>Copyright &copy; suchi_mun.com</footer>
+</div>
+
+
+</body>
+</html>

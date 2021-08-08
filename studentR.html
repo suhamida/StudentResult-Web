@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.default {background-color: lightblue; color: black;width: 180px} /* Gray */ 
+.default:hover {background: #ddd;}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 1em;
+}
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid black;
+	    padding: 13em;
+    overflow: hidden;
+	 text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+   <h1>Student Related</h1>
+</header>
+<nav>
+<br>
+<input type ="button" class="btn default" value="Add Student" onclick="window.location.href='registration.php'"><br></br>
+
+<input type ="button" class="btn default" value="View Student" onclick="window.location.href='views.php'"><br></br>
+<input type ="button" class="btn default" value="Search Student" onclick="window.location.href='searchs.html'"><br></br>
+<input type ="button" class="btn default" value="Delete Student" onclick="window.location.href='deletes.html'"><br></br>
+<input type ="button" class="btn default" value="Update Student" onclick="window.location.href='updateST.html'"><br></br>
+<input type ="button" class="btn default" value="LogOut" onclick="window.location.href='first.html'"><br></br>
+<input type ="button" class="btn default" value="Home" onclick="window.location.href='admin.html'"><br></br>
+
+</nav>
+<article>
+  <p>Students related all works being done here!.</p>
+  <img src="img/stu.jpg" width="300" height="150">
+</article>
+<footer>Copyright &copy; suchi_mun.com</footer>
+</div>
+</body>
+</html>

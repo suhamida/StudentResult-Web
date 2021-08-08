@@ -1,0 +1,75 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.warning {background-color: #CA9F92; color:black; font-weight:bold; width: 150px} /* Orange */
+.warning:hover {background: #e68a00;}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+
+article {
+    margin-left: 170px;
+	
+    border-left: 1px solid black;
+	    padding: 6em;
+    overflow: hidden;
+	 text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+   <h1>User Related</h1>
+</header>
+<nav>
+
+<input type ="button" class="btn warning" value="View User" onclick="window.location.href='viewu.php'"><br></br>
+<input type ="button" class="btn warning" value="Search User" onclick="window.location.href='searchUser.html'"><br></br>
+<input type ="button" class="btn warning" value="Update User" onclick="window.location.href='updateu.html'"><br></br>
+<input type ="button" class="btn warning" value="Delete User" onclick="window.location.href='deleteu.html'"><br></br>
+<input type ="button" class="btn warning" value="LogOut" onclick="window.location.href='first.html'"><br></br>
+<input type ="button" class="btn warning" value="HOME" onclick="window.location.href='admin.html'"><br></br>
+
+</nav>
+<article>
+  <p>Users related all works being done here!.</p>
+  <img src="img/user.jpg" alt="Flowers in Chania" width="460" height="200">
+</article>
+<footer>Copyright &copy; suchi_mun.com</footer>
+</div>
+</body>
+</html>
+
+
+
